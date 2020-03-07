@@ -1,5 +1,4 @@
 .card {
-  width: 824px;
   height: 68px;
   box-shadow: var(--box-shadow);
   border-radius: 6px;
@@ -9,4 +8,10 @@
   align-items: center;
   padding: 0 24px 0 56px;
   cursor: pointer;
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: var(--box-shadow-hovered);
 }

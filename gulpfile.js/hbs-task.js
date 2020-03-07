@@ -12,6 +12,7 @@ function hbs() {
     .pipe(
       hb()
         .partials("./common.blocks/**/*.hbs")
+        .helpers("./hbs-helpers/**/*.js")
         .data("./common.blocks/**/*.json")
     )
     .pipe(htmlmin({ collapseWhitespace: true }))
