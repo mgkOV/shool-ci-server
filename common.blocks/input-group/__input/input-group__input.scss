@@ -1,0 +1,21 @@
+.input-group__input {
+  padding: 11px 13px 10px;
+  height: 36px;
+  border-radius: 4px;
+  background-color: var(--color-bg-base);
+  border: 2px solid var(--color-border-input);
+  align-self: stretch;
+  color: var(--color-font-base);
+  font-size: 13px;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.input-group__input:focus {
+  border-color: var(--color-border-control-focused);
+  outline: none;
+}
+
+.input-group__input::placeholder {
+  color: var(--color-border-input);
+}

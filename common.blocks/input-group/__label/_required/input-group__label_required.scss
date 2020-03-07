@@ -1,0 +1,7 @@
+.input-group__label_required::after {
+  content: "*";
+  position: absolute;
+  top: 0;
+  right: -8px;
+  color: var(--color-danger);
+}
