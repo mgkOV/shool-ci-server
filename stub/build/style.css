@@ -1,0 +1,153 @@
+.button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 100px; }
+
+@font-face {
+  font-family: "YS Text";
+  src: url("//yastatic.net/islands/_/PyVcRbwHetz0gOVWLonWH7Od8zM.woff2") format("woff2"), url("//yastatic.net/islands/_/bIx8jOfCEfR-mECoDUEZywDBuHA.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "YS Text";
+  src: url("//yastatic.net/islands/_/7_GKBdKFbUPzKlghJRv55xgz0FQ.woff2") format("woff2"), url("//yastatic.net/islands/_/SmqPmIMEXrW4lOY8QrhTUVDbrro.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "YS Text";
+  src: url("//yastatic.net/islands/_/6Roy0LCd05cK4nNCipgzheYcNVU.woff2") format("woff2"), url("//yastatic.net/islands/_/KtHQR1erf3spayoIM4M4ngg0e2E.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+body {
+  margin: 0; }
+
+.theme {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: var(--color-bg-default);
+  border-color: var(--color-bg-border);
+  color: var(--color-font-primary); }
+
+.button_tone_action {
+  background-color: var(--color-bg-action);
+  border: 2px solid var(--color-bg-action); }
+
+.button_tone_action:hover {
+  background-color: var(--color-bg-action-hovered);
+  border: 2px solid var(--color-bg-action-hovered); }
+
+.button_tone_action:focus {
+  border: 2px solid var(--color-border-action-focused);
+  outline: none; }
+
+.button_tone_control {
+  background-color: var(--color-bg-control);
+  border: 2px solid var(--color-bg-control); }
+
+.button_tone_control:hover {
+  background-color: var(--color-bg-control-hovered);
+  border: 2px solid var(--color-bg-control-hovered); }
+
+.button_tone_control:focus {
+  border: 2px solid var(--color-border-control-focused);
+  outline: none; }
+
+.button_tone_disabled {
+  background-color: var(--color-bg-disabled); }
+
+.button_type_form-control {
+  height: 36px;
+  padding: 0 18px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.button_type_icon-btn {
+  height: 28px;
+  padding: 0 13px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.button__icon {
+  width: 23px;
+  display: inline-block; }
+
+.button__text {
+  display: inline-block; }
+
+.button-group__item:last-child {
+  margin-left: 8px; }
+
+.header__btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.header__title {
+  font-size: 24px;
+  font-weight: 500; }
+
+.theme_color_default {
+  --color-bg-base: #ffffff;
+  --color-bg-dark: #f0f2f3;
+  --color-bg-action: #ffcc00;
+  --color-bg-action-hovered: #f2c200;
+  --color-bg-control: #e6e6e6;
+  --color-bg-control-hovered: #dbdbdb;
+  --color-bg-disabled: #f2f2f2;
+  --color-border-action-focused: #b38f00;
+  --color-border-input: #d9d9d9;
+  --color-border-control-focused: #b3b3b3;
+  --box-shadow: 0px 1px 1px rgba(67, 68, 69, 0.3), 0px 0px 1px rgba(67, 68, 69, 0.3);
+  --color-font-base: #000000;
+  --color-font-secondary: #7f8285;
+  --color-success: #00b341;
+  --color-danger: #ff3333;
+  --color-warning: #ff9a00; }
+
+.theme_font_default {
+  --font-base: "YS Text", Arial, sans-serif;
+  font-family: var(--font-base); }

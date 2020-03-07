@@ -1,0 +1,14 @@
+.button_tone_control {
+  background-color: var(--color-bg-control);
+  border: 2px solid var(--color-bg-control);
+}
+
+.button_tone_control:hover {
+  background-color: var(--color-bg-control-hovered);
+  border: 2px solid var(--color-bg-control-hovered);
+}
+
+.button_tone_control:focus {
+  border: 2px solid var(--color-border-control-focused);
+  outline: none;
+}
