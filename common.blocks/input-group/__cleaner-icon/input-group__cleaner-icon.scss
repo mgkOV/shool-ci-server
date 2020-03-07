@@ -1,0 +1,12 @@
+.input-group__cleaner-icon {
+  position: absolute;
+  right: 10px;
+  top: 43px;
+  z-index: 10;
+  cursor: pointer;
+  display: none;
+}
+
+.input-group__input_with-cleaner:not(:placeholder-shown) ~ .input-group__cleaner-icon {
+  display: block;
+}
