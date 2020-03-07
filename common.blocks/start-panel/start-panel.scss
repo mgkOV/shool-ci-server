@@ -1,9 +1,11 @@
 .start-panel {
+  box-sizing: border-box;
   width: 264px;
-  height: 248px;
+  height: 286px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 13px 26px 25px 26px;
 }
