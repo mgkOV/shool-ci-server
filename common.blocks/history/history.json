@@ -1,3 +1,76 @@
 {
-  "history": [{ "type": "success" }]
+  "history": [
+    {
+      "type": "success",
+      "number": 1368,
+      "title": "add documetation for postgres scaler",
+      "branch": "master",
+      "hash": "9c9f0b9",
+      "author": "Philip Kirkorov"
+    },
+    {
+      "type": "error",
+      "number": 1367,
+      "title": "Super cool UI kit for making websites that look like games",
+      "branch": "super-cool-ui-kit",
+      "hash": "952e5567",
+      "author": "Vadim Makeev"
+    },
+    {
+      "type": "success",
+      "number": 1366,
+      "title": "Merge branch 'master' of github.com:jaywcjlove/awesome",
+      "branch": "master",
+      "hash": "b4636ab",
+      "author": "Philip Kirkorov"
+    },
+    {
+      "type": "warning",
+      "number": 1365,
+      "title": "upgrade typescript to 3.8",
+      "branch": "master",
+      "hash": "b4636ab",
+      "author": "Philip Kirkorov"
+    },
+    {
+      "type": "success",
+      "number": 1365,
+      "title": "add documentation for postgres scaler",
+      "branch": "master",
+      "hash": "b4636ab",
+      "author": "Philip Kirkorov"
+    },
+    {
+      "type": "error",
+      "number": 1367,
+      "title": "replace all `div` to `article`",
+      "branch": "master",
+      "hash": "952e5567",
+      "author": "Vadim Makeev"
+    },
+    {
+      "type": "success",
+      "number": 1365,
+      "title": "improved accessibility",
+      "branch": "master",
+      "hash": "e41e4cc",
+      "author": "Philip Kirkorov"
+    },
+    {
+      "type": "success",
+      "number": 1365,
+      "title": "fix: upload 别片类型",
+      "branch": "master",
+      "hash": "e41e4cc",
+      "author": "Philip Kirkorov"
+    },
+    {
+      "type": "success",
+      "number": 1365,
+      "title": "Form item has default height align with form size",
+      "branch": "master",
+      "hash": "e41e4cc",
+      "author": "Philip Kirkorov"
+    }
+  ]
 }

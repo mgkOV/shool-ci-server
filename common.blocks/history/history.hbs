@@ -1,10 +1,10 @@
 <div class="history">
   {{#each history.history.history}}
-  <div class="card card_type_{{this.type}}">
+  <div class="card card_type_{{this.type}} history__item">
     <div class="card__content">
       <div class="card__title status">
-        <span class="status__number status__number_view_success">#1368</span>
-        <span class="status__comment">add documentation for postgres scaler</span>
+        <span class="status__number status__number_view_{{this.type}}">#{{this.number}}</span>
+        <span class="status__comment">{{this.title}}</span>
       </div>
 
       <div class="card__subtitle">
@@ -17,8 +17,8 @@
                 fill="black" />
             </svg>
           </div>
-          <div class="meta__text">master</div>
-          <div class="meta__text meta__text_secondary">9c9f0b9</div>
+          <div class="meta__text">{{this.branch}}</div>
+          <div class="meta__text meta__text_secondary">{{this.hash}}</div>
         </div>
 
         <div class="meta card__subtitle-item">
@@ -30,7 +30,7 @@
             </svg>
 
           </div>
-          <div class="meta__text">Philip Kirkorov</div>
+          <div class="meta__text">{{this.author}}</div>
 
         </div>
       </div>
@@ -70,5 +70,9 @@
     </div>
   </div>
   {{/each}}
-  {{!-- {{logger history.history.history}} --}}
+  <button class="button button_type_text button_tone_control header__button">
+    <span class="button__text">
+      Show more
+    </span>
+  </button>
 </div>
