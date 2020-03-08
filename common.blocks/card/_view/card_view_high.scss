@@ -1,0 +1,12 @@
+.card_view_high {
+  height: 101px;
+  flex-direction: column;
+  align-items: stretch;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: default;
+}
+
+.card_view_high:hover {
+  box-shadow: var(--box-shadow);
+}
