@@ -1,3 +1,5 @@
+@import "../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .start-panel {
   box-sizing: border-box;
   width: 264px;
@@ -8,4 +10,10 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 13px 0 25px 0;
+}
+
+@media screen and (max-width: $screen-s) {
+  .start-panel {
+    padding: 5px 0 33px 0;
+  }
 }

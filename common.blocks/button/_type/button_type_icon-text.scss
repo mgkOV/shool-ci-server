@@ -14,6 +14,11 @@ button.button_type_icon-text {
 }
 
 @media screen and (max-width: $screen-s) {
+  .button_type_icon-text {
+    padding: 0;
+    width: 28px;
+  }
+
   .button_type_icon-text .button__text {
     display: none;
   }
