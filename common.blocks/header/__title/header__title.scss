@@ -1,6 +1,15 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .header__title {
   font-size: var(--size-text-3xl);
   font-weight: 500;
   letter-spacing: 0.25px;
   margin: 0;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .header__title {
+    font-size: var(--size-text-2xl);
+  }
 }

@@ -1,3 +1,5 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .card__subtitle-item {
   margin-left: 8px;
   flex-shrink: 0;
@@ -5,4 +7,14 @@
 
 .card__subtitle-item:first-child {
   margin-left: 0;
+}
+
+@media screen and (max-width: $screen-s) {
+  .card__subtitle-item {
+    margin-left: 0;
+  }
+
+  .card__subtitle-item:first-child {
+    margin-bottom: 8px;
+  }
 }

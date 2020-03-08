@@ -1,5 +1,14 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .card__subtitle {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+@media screen and (max-width: $screen-s) {
+  .card__subtitle {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

@@ -1,3 +1,12 @@
+@import "../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .section {
   padding: 0 100px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

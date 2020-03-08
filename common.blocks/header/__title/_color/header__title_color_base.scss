@@ -1,4 +1,12 @@
+@import "../../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .header__title_color_base {
   color: var(--color-font-base);
   line-height: 30px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .header__title_color_base {
+    line-height: 22px;
+  }
 }

@@ -1,7 +1,16 @@
+@import "../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .header {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 100px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .header {
+    padding: 12px 16px;
+    align-items: flex-start;
+  }
 }

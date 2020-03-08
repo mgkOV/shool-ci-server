@@ -1,6 +1,14 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .status {
   color: var(--color-font-base);
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+@media screen and (max-width: $screen-s) {
+  .status {
+    flex-direction: column;
+  }
 }

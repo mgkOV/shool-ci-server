@@ -1,3 +1,5 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .card {
   box-sizing: border-box;
   // height: 68px;
@@ -15,4 +17,14 @@
 
 .card:hover {
   box-shadow: var(--box-shadow-hovered);
+}
+
+@media screen and (max-width: $screen-s) {
+  .card {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    cursor: default;
+    padding: 16px 24px 16px 36px;
+  }
 }

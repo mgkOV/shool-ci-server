@@ -1,3 +1,5 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .footer__link {
   color: var(--color-font-secondary);
   font-size: var(--size-text-m);
@@ -13,4 +15,10 @@
 
 .footer__link:hover {
   color: var(--color-error);
+}
+
+@media screen and (max-width: $screen-s) {
+  .footer__link {
+    line-height: 18px;
+  }
 }

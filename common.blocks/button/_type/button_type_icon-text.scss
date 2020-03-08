@@ -1,3 +1,5 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .button_type_icon-text {
   height: 28px;
   line-height: 28px;
@@ -9,4 +11,10 @@
 
 button.button_type_icon-text {
   line-height: 24px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .button_type_icon-text .button__text {
+    display: none;
+  }
 }

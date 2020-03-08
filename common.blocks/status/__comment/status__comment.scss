@@ -1,5 +1,13 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .status__comment {
   font-size: var(--size-text-l);
   // line-height: var(--line-height-text-s);
   line-height: 20px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .status__comment {
+    margin-top: 8px;
+  }
 }

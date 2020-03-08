@@ -1,7 +1,16 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .status__number {
   font-size: var(--size-text-2xl);
   font-weight: 500;
   // line-height: var(--line-height-text-2xs);
   line-height: 20px;
   margin-right: 4px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .status__number {
+    font-size: var(--size-text-xl);
+    line-height: 16px;
+  }
 }
