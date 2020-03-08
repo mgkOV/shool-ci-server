@@ -1,3 +1,6 @@
 .status {
   color: var(--color-font-base);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }

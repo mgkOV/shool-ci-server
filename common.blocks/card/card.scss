@@ -1,13 +1,13 @@
 .card {
   box-sizing: border-box;
-  height: 68px;
+  // height: 68px;
   box-shadow: var(--box-shadow);
   border-radius: 6px;
   background-color: var(--color-bg-base);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px 0 56px;
+  padding: 12px 24px 12px 56px;
   cursor: pointer;
   position: relative;
   transition: box-shadow 0.3s;
