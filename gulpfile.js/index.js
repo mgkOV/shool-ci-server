@@ -23,9 +23,9 @@ function watch() {
     )
     .on("change", browserSync.reload);
 
-  // gulp
-  //   .watch(["./common.blocks/**/*.js"], { ignoreInitial: false }, js)
-  //   .on("change", browserSync.reload);
+  gulp
+    .watch(["./common.blocks/**/*.js"], { ignoreInitial: false }, js)
+    .on("change", browserSync.reload);
 }
 
 module.exports = {

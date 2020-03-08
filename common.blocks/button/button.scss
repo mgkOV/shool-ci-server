@@ -1,8 +1,13 @@
 .button {
+  display: block;
+  text-align: center;
   box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.4s;
   display: flex;
   align-items: center;
+  font-size: var(--size-text-m);
+  color: var(--color-font-base);
+  text-decoration: none;
 }
