@@ -49,7 +49,7 @@ async function js() {
     .pipe(gulpif(isProd, uglify()))
     .on("error", console.error)
     .pipe(debug())
-    .pipe(gulp.dest(`./${isProd ? "" : "stub/"}build`));
+    .pipe(gulp.dest(`${isProd ? "./build" : "./hw-ci-server"}`));
 }
 
 module.exports = js;

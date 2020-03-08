@@ -56,7 +56,7 @@ async function bundleStyle() {
     .pipe(postcss(modules))
     .on("error", console.error)
     .pipe(debug())
-    .pipe(gulp.dest(`./${isProd ? "" : "stub/"}build`))
+    .pipe(gulp.dest(`${isProd ? "./build" : "./hw-ci-server"}`))
     .pipe(gulpif(isDev, browserSync.stream()));
 }
 
