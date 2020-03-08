@@ -7,7 +7,9 @@
   transition: all 0.4s;
   display: flex;
   align-items: center;
+  align-content: center;
   font-size: var(--size-text-m);
   color: var(--color-font-base);
   text-decoration: none;
+  font-family: var(--font-base);
 }

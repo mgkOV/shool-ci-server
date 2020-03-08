@@ -1,6 +1,7 @@
 .status__number {
   font-size: var(--size-text-2xl);
   font-weight: 500;
-  line-height: var(--line-height-text-2xs);
+  // line-height: var(--line-height-text-2xs);
+  line-height: 20px;
   margin-right: 4px;
 }

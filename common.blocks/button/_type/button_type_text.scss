@@ -1,7 +1,12 @@
 .button_type_text {
   height: 28px;
-  padding: 0 13px;
+  line-height: 28px;
+  padding: 0 11px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+button.button_type_text {
+  line-height: 24px;
 }

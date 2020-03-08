@@ -1,5 +1,7 @@
 .meta__text {
   margin-left: 4px;
   font-size: var(--size-text-m);
-  line-height: var(--line-height-text-2xs);
+  // line-height: var(--line-height-text-2xs);
+  line-height: 16px;
+  letter-spacing: 0.06px;
 }

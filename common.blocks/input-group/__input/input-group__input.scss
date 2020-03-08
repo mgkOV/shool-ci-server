@@ -1,5 +1,5 @@
 .input-group__input {
-  padding: 11px 13px 10px;
+  padding: 11px 11px 10px 12px;
   height: 36px;
   border-radius: 4px;
   background-color: var(--color-bg-base);
@@ -8,7 +8,8 @@
   color: var(--color-font-base);
   font-size: var(--size-text-m);
   box-sizing: border-box;
-  margin-top: 8px;
+  margin-top: 7px;
+  font-family: var(--font-base);
 }
 
 .input-group__input:focus {

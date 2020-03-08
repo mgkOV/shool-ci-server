@@ -3,7 +3,7 @@
     {
       "type": "success",
       "number": 1368,
-      "title": "add documetation for postgres scaler",
+      "title": "add documentation for postgres scaler",
       "branch": "master",
       "hash": "9c9f0b9",
       "author": "Philip Kirkorov"
@@ -34,7 +34,7 @@
     },
     {
       "type": "success",
-      "number": 1365,
+      "number": 1364,
       "title": "add documentation for postgres scaler",
       "branch": "master",
       "hash": "b4636ab",
@@ -50,7 +50,7 @@
     },
     {
       "type": "success",
-      "number": 1365,
+      "number": 1362,
       "title": "improved accessibility",
       "branch": "master",
       "hash": "e41e4cc",
@@ -58,7 +58,7 @@
     },
     {
       "type": "success",
-      "number": 1365,
+      "number": 1350,
       "title": "fix: upload 别片类型",
       "branch": "master",
       "hash": "e41e4cc",
@@ -66,7 +66,7 @@
     },
     {
       "type": "success",
-      "number": 1365,
+      "number": 1349,
       "title": "Form item has default height align with form size",
       "branch": "master",
       "hash": "e41e4cc",

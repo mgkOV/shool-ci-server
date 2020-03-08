@@ -1,5 +1,11 @@
 .button_type_form-control {
   height: 36px;
+  line-height: 36px;
   padding: 0 18px;
   justify-content: center;
+  position: relative;
+}
+
+button.button_type_form-control {
+  line-height: 32px;
 }
