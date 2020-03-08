@@ -1,3 +1,5 @@
+@import "../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .log-screen {
   border-radius: 6px;
   background-color: var(--color-bg-disabled);
@@ -6,4 +8,10 @@
   font-size: var(--size-text-s);
   line-height: var(--line-height-text-l);
   overflow-x: auto;
+}
+
+@media screen and (max-width: $screen-s) {
+  .log-screen {
+    border-radius: 0;
+  }
 }

@@ -1,0 +1,16 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
+.section_log-content {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .section_log-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .section.section_log-content {
+    padding: 0;
+  }
+}
