@@ -1,4 +1,12 @@
+@import "../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .form {
   width: 100%;
   max-width: 474px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .form {
+    padding-bottom: 20px;
+  }
 }

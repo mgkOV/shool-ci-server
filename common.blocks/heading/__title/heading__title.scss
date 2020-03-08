@@ -1,6 +1,14 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .heading__title {
   font-weight: 700;
   font-size: var(--size-text-l);
   line-height: var(--line-height-text-s);
   margin: 8px 0;
+}
+
+@media screen and (max-width: $screen-s) {
+  .heading__title {
+    margin-top: 14px;
+  }
 }

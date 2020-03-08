@@ -1,3 +1,11 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .form__field-group {
   padding: 12px 0;
+}
+
+@media screen and (max-width: $screen-s) {
+  .form__field-group {
+    padding: 4px 0;
+  }
 }

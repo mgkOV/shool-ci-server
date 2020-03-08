@@ -1,6 +1,17 @@
+@import "../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .button-group__item {
   margin-right: 8px;
 }
 .button-group__item:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: $screen-s) {
+  .button-group__item {
+    margin-right: 0;
+  }
+  .button-group__item:last-child {
+    margin-top: 12px;
+  }
 }

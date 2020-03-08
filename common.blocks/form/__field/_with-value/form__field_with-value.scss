@@ -1,3 +1,11 @@
+@import "../../../theme/_braikpoint/theme_brakepoint_default.scss";
+
 .form__field_with-value {
   padding: 12px 0;
+}
+
+@media screen and (max-width: $screen-s) {
+  .form__field_with-value {
+    padding: 8px 0 16px 0;
+  }
 }
