@@ -6,15 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <title>CI</title>
+  <style>
+    .dev-nav {
+      height: 40px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0 100px;
+      border-bottom: 1px solid var(--color-bg-dark);
+      margin-bottom: 20px;
+    }
+
+    .dev-nav__link {
+      color: var(--color-font-secondary);
+      font-size: 13px;
+      text-decoration: none;
+      transition: color 0.2s;
+      margin-right: 12px;
+    }
+
+    .dev-nav__link:last-child {
+      margin-right: 0;
+    }
+
+    .dev-nav__link:hover {
+      color: var(--color-success);
+    }
+  </style>
 </head>
 
 <body>
   <div class="page theme theme_color_default theme_font_default">
 
-    <a href="/start-screen.html">Start screen</a>
-    <a href="/start-screen.html">Settings</a>
-    <a href="/start-screen.html">Build history</a>
-    <a href="/start-screen.html">Build details</a>
+    <div class="dev-nav">
+      <a class="dev-nav__link" href="/start-screen.html">Start screen</a>
+      <a class="dev-nav__link" href="/settings.html">Settings</a>
+      <a class="dev-nav__link" href="/build-history.html">Build history</a>
+      <a class="dev-nav__link" href="/build-details.html">Build details</a>
+    </div>
 
     <div class="button-group">
       <button class="button button_type_form-control button_tone_action button-group__item">
