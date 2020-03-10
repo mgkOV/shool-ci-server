@@ -28,7 +28,17 @@ function watch() {
     .on("change", browserSync.reload);
 }
 
+function server() {
+  browserSync.init({
+    server: {
+      baseDir: "./hw-ci-server"
+    },
+    port: 3000
+  });
+}
+
 module.exports = {
   build: gulp.series(style, js, hbs),
-  watch
+  watch,
+  server
 };

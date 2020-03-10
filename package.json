@@ -4,9 +4,8 @@
   "description": "Тестовое задание «Реализуйте дизайн-систему» для [16-й Школы разработки интерфейсов](https://yandex.ru/promo/academy/shri) (зима 2020, Москва).",
   "scripts": {
     "build": "cross-env NODE_ENV=production gulp build",
-    "build:stub": "gulp build",
-    "server:stub": "npm start --prefix=stub",
-    "watch": "cross-env NODE_ENV=development gulp watch"
+    "watch": "cross-env NODE_ENV=development gulp watch",
+    "dev": "cross-env NODE_ENV=development gulp server"
   },
   "author": "",
   "license": "ISC",
